@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { useMutation } from '@apollo/client';
-import { Link } from 'react-router-dom';
-import { LOGIN } from '../utils/mutations';
-import Auth from '../utils/auth';
+import React, { useState } from "react";
+import { useMutation } from "@apollo/client";
+import { Link } from "react-router-dom";
+import { LOGIN } from "../utils/mutations";
+import Auth from "../utils/auth";
 
 function Login(props) {
-  const [formState, setFormState] = useState({ email: '', password: '' });
+  const [formState, setFormState] = useState({ email: "", password: "" });
   const [login, { error }] = useMutation(LOGIN);
 
   const handleFormSubmit = async (event) => {
@@ -30,40 +30,64 @@ function Login(props) {
   };
 
   return (
-    <div className="container my-1">
-      <Link to="/signup">← Go to Signup</Link>
+    <div className="container mt-10">
+      <div className="row">
+        <div className="col-lg-3 col-md-2"></div>
+        <div
+          className="col-lg-6 col-md-8 login-box"
+          style={{
+            background: "linear-gradient(30deg, #FFff, #ffe5d9)",
+          }}
+        >
+          <div className="col-lg-12 login-form">
+            <h1 className="text-center" style={{ color: "darkgrey" }}>
+              Login
+            </h1>
 
-      <h2>Login</h2>
-      <form onSubmit={handleFormSubmit}>
-        <div className="flex-row space-between my-2">
-          <label htmlFor="email">Email address:</label>
-          <input
-            placeholder="youremail@test.com"
-            name="email"
-            type="email"
-            id="email"
-            onChange={handleChange}
-          />
-        </div>
-        <div className="flex-row space-between my-2">
-          <label htmlFor="pwd">Password:</label>
-          <input
-            placeholder="******"
-            name="password"
-            type="password"
-            id="pwd"
-            onChange={handleChange}
-          />
-        </div>
-        {error ? (
-          <div>
-            <p className="error-text">The provided credentials are incorrect</p>
+            <form onSubmit={handleFormSubmit}>
+              <div className="form-group">
+                <label className="form-control-label">USERNAME</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="youremail@test.com"
+                  name="email"
+                  onChange={handleChange}
+                />
+              </div>
+              <div className="form-group">
+                <label className="form-control-label">PASSWORD</label>
+                <input
+                  type="password"
+                  className="form-control"
+                  placeholder="******"
+                  name="password"
+                  onChange={handleChange}
+                />
+              </div>
+
+              <div className="col-lg-12 loginbttm">
+                <div className="col-lg-6 login-btm login-text">
+                  {error && (
+                    <p className="error-text">
+                      The provided credentials are incorrect
+                    </p>
+                  )}
+                </div>
+                <div className="col-lg-6 login-btm login-button">
+                  <button type="submit" className="btn btn-outline-primary">
+                    LOGIN
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
-        ) : null}
-        <div className="flex-row flex-end">
-          <button type="submit">Submit</button>
+          <p className="mt text-center">
+            {" "}
+            Don't have an account? <Link to="/signup">Sign up here</Link>{" "}
+          </p>
         </div>
-      </form>
+      </div>
     </div>
   );
 }
