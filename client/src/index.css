@@ -1,27 +1,40 @@
 :root {
-  --primary: #232F3E;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
+<<<<<<< HEAD
+  --primary: #ffddd2;
+  --secondary: #ffff;
+  --tertiary: #ffdab9;
+  --salmon: #f8ad9d;
+  --light-brown: #c9ada7;
+  --light-orange: #ffdab9;
+=======
+  --primary: #e6b083be;
+  --secondary: #f0bf7f;
+  --tertiary: #f38f37;
   --light: #fafafa;
-  --dark: #272f32;
+  --dark: #473e2e;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
+>>>>>>> 90524b76362ab1315b194e9b0cfe0734274886b8
 }
 
 * {
   box-sizing: border-box;
 }
+<<<<<<< HEAD
+=======
 
 html,
 body {
   min-height: 100%;
+  background-image: linear-gradient(60deg, rgba(241, 188, 16, 0.174), white, rgba(208, 167, 5, 0.215));
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Karla', sans-serif;
+  /* font-family: 'Karla', sans-serif; */
+  font-family: "montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.5;
   font-size: 16px;
@@ -208,3 +221,4 @@ input:focus {
     width: 100%;
   }
 }
+>>>>>>> 90524b76362ab1315b194e9b0cfe0734274886b8
