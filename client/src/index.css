@@ -1,12 +1,4 @@
 :root {
-<<<<<<< HEAD
-  --primary: #ffddd2;
-  --secondary: #ffff;
-  --tertiary: #ffdab9;
-  --salmon: #f8ad9d;
-  --light-brown: #c9ada7;
-  --light-orange: #ffdab9;
-=======
   --primary: #e6b083be;
   --secondary: #f0bf7f;
   --tertiary: #f38f37;
@@ -15,14 +7,11 @@
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
->>>>>>> 90524b76362ab1315b194e9b0cfe0734274886b8
 }
 
 * {
   box-sizing: border-box;
 }
-<<<<<<< HEAD
-=======
 
 html,
 body {
@@ -123,6 +112,8 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  max-height: 260px;
+  min-height: 259px;
 }
 
 span[role="img"] {
@@ -221,4 +212,3 @@ input:focus {
     width: 100%;
   }
 }
->>>>>>> 90524b76362ab1315b194e9b0cfe0734274886b8
