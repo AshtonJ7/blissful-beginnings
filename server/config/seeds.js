@@ -28,22 +28,40 @@ db.once('open', async () => {
       quantity: 500
     },
     {
+      name: 'Pink Sleepsuit',
+      description:
+        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+      image: 'sleepsuit-girl.jpg',
+      category: categories[0]._id,
+      price: 7.99,
+      quantity: 400
+    },
+    {
       name: 'Socks 3-pack',
       description:
         'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
       image: 'socks-3-pack.jpg',
       category: categories[0]._id,
       price: 7.99,
-      quantity: 500
+      quantity: 300
     },
     {
-      name: 'Baby Bottle',
+      name: 'Grey Knitted Jumper',
+      description:
+        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+      image: 'baby-jumper.jpg',
+      category: categories[0]._id,
+      price: 14.99,
+      quantity: 298
+    },
+    {
+      name: 'Animal Baby Bottle',
       category: categories[1]._id,
       description:
         'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
       image: 'baby-bottle.jpg ',
       price: 4.99,
-      quantity: 20
+      quantity: 550
     },
     {
       name: 'Pushchair',
@@ -51,8 +69,8 @@ db.once('open', async () => {
       description:
         'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
       image: 'pushchair.jpg',
-      price: 99.99,
-      quantity: 50
+      price: 199.99,
+      quantity: 76
     },
     {
       name: 'Baby Powder',
@@ -61,7 +79,7 @@ db.once('open', async () => {
         'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
       image: 'baby-powder.jpg',
       price: 7.99,
-      quantity: 100
+      quantity: 500
     },
     {
       name: 'Nursery Cot',
@@ -69,8 +87,8 @@ db.once('open', async () => {
       description:
         'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
       image: 'cot.jpg',
-      price: 35.99,
-      quantity: 30
+      price: 135.99,
+      quantity: 60
     },
     {
       name: 'Storage Drawers',
@@ -79,10 +97,10 @@ db.once('open', async () => {
         'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
       image: 'drawers.jpg',
       price: 150.99,
-      quantity: 30
+      quantity: 45
     },
     {
-      name: 'Baby Educational Book',
+      name: 'Alphabet Learning Book',
       category: categories[3]._id,
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
@@ -95,7 +113,7 @@ db.once('open', async () => {
       category: categories[3]._id,
       description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
       image: 'abacus.jpg',
-      price: 1.99,
+      price: 8.99,
       quantity: 200
     },
     {
@@ -131,17 +149,17 @@ db.once('open', async () => {
       description:
         'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
       image: 'baby-monitor.jpg',
-      price: 45.99,
+      price: 79.99,
       quantity: 150
     },
     {
-      name: 'Thermometer',
+      name: 'Baby Thermometer',
       category: categories[5]._id,
       description:
         'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
       image: 'thermometer.jpg',
       price: 25.99,
-      quantity: 100
+      quantity: 750
     }
   ]);
 
