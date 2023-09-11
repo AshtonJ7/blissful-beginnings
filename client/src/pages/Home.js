@@ -7,10 +7,10 @@ import Landing from "../components/Landing/index";
 const Home = () => {
   return (
     <div className="container">
-      {/* <Landing />
+      <Landing />
       <CategoryMenu />
       <ProductList />
-      <Cart /> */}
+      <Cart />
     </div>
   );
 };

@@ -104,10 +104,6 @@ function Index() {
             />
           </div>
         </form>
-        {/* Shopping Cart Icon */}
-        <div className="ml-2">
-          <i className="fa fa-shopping-cart fa-2x"></i>
-        </div>
       </nav>
 
       {/* Static Navbar with Divider */}
