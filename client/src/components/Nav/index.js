@@ -40,7 +40,6 @@ function Index() {
             />
           </div>
         </form>
-
         {/* Shopping Cart Icon */}
         <div className="custom-cart-icon">
           <i className="fa fa-shopping-cart fa-2x"></i>
