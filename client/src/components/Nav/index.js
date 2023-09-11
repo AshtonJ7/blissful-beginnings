@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function Index() {
+
   return (
     <div>
       {/* Main Navbar */}
@@ -178,3 +179,4 @@ function Index() {
 }
 
 export default Index;
+
