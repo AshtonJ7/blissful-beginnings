@@ -69,6 +69,11 @@ function Index() {
                   My Account
                 </Link>
               </li>
+              <li className="nav-item">
+            <Link className="nav-link" to="/orderHistory">
+              Order History
+            </Link>
+          </li>
             </ul>
           </div>
         </div>
