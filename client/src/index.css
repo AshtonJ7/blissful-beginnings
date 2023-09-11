@@ -176,3 +176,17 @@ label {
 .mt {
   margin-top: -2%;
 }
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: solid;
+  border-width: 1px;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: pink;
+  border-color: black;
+}
+
