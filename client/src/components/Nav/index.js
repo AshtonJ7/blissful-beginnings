@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function Index() {
+
   return (
     <div>
       {/* Main Navbar */}
@@ -102,10 +103,6 @@ function Index() {
             />
           </div>
         </form>
-        {/* Shopping Cart Icon */}
-        <div className="ml-2">
-          <i className="fa fa-shopping-cart fa-2x"></i>
-        </div>
       </nav>
 
       {/* Static Navbar with Divider */}
@@ -180,3 +177,4 @@ function Index() {
 }
 
 export default Index;
+

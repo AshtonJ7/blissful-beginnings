@@ -71,9 +71,9 @@ const Cart = () => {
   if (!state.cartOpen) {
     return (
       <div className="cart-closed" onClick={toggleCart}>
-        <span role="img" aria-label="trash">
-          🛒
-        </span>
+        <div className="ml-2">
+          <i id="trolley" className="fa fa-shopping-cart fa-1x"></i>
+        </div>
       </div>
     );
   }
@@ -81,7 +81,7 @@ const Cart = () => {
   return (
     <div className="cart">
       <div className="close" onClick={toggleCart}>
-        [close]
+        X
       </div>
       <h2>Shopping Cart</h2>
       {state.cart.length ? (
