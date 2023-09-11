@@ -8,9 +8,18 @@ function Index() {
     <div>
       {/* Main Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="/">
-          Navbar
+        <div>
+
+        <img src="/images/v1.png" class="img-fluid" width="15%" alt="logo"/>
+
+        </div>
+        
+        {/* <div>
+          <a className="navbar-brand" href="/">
+            Blissful Beginnings
         </a>
+        </div> */}
+
         <button
           className="navbar-toggler"
           type="button"
