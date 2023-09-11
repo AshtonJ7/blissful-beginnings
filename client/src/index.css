@@ -14,12 +14,19 @@
 
 * {
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
 
 .container-box {
   border: 1px solid black;
   padding: 10px;
 }
+
+.navbar, .navbar-expand-lg{
+  background-color: var(--primary);
+  text-align: center;
+}
+
 
 .divider {
   border-right: 1px solid black;
