@@ -1,9 +1,10 @@
 import React from "react";
+import Carousel from "./Carousel/index";
 
 function index() {
   return (
     <div>
-      <h1>testing</h1>
+      <Carousel />
     </div>
   );
 }

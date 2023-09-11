@@ -1,0 +1,236 @@
+/* Default styles h1 */
+h1 {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* STYLING FOR THE H1 TITLE 'BABY CLOTHING */
+.baby-title {
+  margin-top: 20%;
+  font-size: 35px;
+  margin-left: 2%;
+}
+
+/* SMALLEST SCREEN: Responsive styles for screens between 390px and 481px */
+@media (min-width: 390px) and (max-width: 481px) {
+  .baby-title {
+    margin-top: 20%;
+    font-size: 35px;
+    margin-left: 2%;
+  }
+}
+
+/* MEDIUM SCREEN: Responsive styles for 481px until 600px */
+@media (min-width: 481px) and (max-width: 600px) {
+  .baby-title {
+    margin-top: 50%;
+    font-size: 35px;
+    margin-left: 7%;
+    color: darkturquoise;
+  }
+}
+
+/* LARGE SCREEN: Responsive styles for 600px until 768px */
+@media (min-width: 600px) and (max-width: 768px) {
+  .baby-title {
+    margin-top: 50%;
+    font-size: 35px;
+    color: blue;
+  }
+}
+
+/* XL SCREEN: Responsive styles for large screens between 768px until 992px */
+@media (min-width: 768px) and (max-width: 992px) {
+  .baby-title {
+    margin-top: 40%;
+    font-size: 35px;
+    color: orange;
+  }
+}
+
+/* 2XL SCREEN: Responsive styles for screens at least 992px wide */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .baby-title {
+    margin-top: 30%;
+    font-size: 60px;
+    color: green;
+  }
+}
+
+/* 3XL SCREEN: Responsive styles for screens at least 1280px wide */
+@media (min-width: 1200px) {
+  .baby-title {
+    margin-right: 0;
+    margin-top: 30%;
+    font-size: 60px;
+    color: rgb(38, 93, 195);
+  }
+}
+
+/* STYLING FOR PARAGRAPH - */
+.summary {
+  display: flex;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #2b2d42;
+  font-weight: 500;
+  line-height: 35px;
+  margin-top: 15%;
+}
+
+/* SMALLEST SCREEN: Responsive styles for screens between 390px and 481px */
+@media (min-width: 390px) and (max-width: 481px) {
+  .summary {
+    display: flex;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2b2d42;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 15%;
+  }
+}
+
+/* MEDIUM SCREEN: Responsive styles for 481px until 600px */
+@media (min-width: 481px) and (max-width: 600px) {
+  .summary {
+    display: flex;
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2b2d42;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 10px;
+    margin-top: 10%;
+  }
+}
+
+/* LARGE SCREEN: Responsive styles for 600px until 768px screens */
+@media (min-width: 600px) and (max-width: 768px) {
+  .summary {
+    display: flex;
+    width: 508px;
+    height: 236px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2b2d42;
+    font-weight: 500;
+    line-height: 35px;
+  }
+}
+
+/* XL SCREEN: Responsive styles for large screens between 768px until 992px */
+@media (min-width: 768px) and (max-width: 992px) {
+  .summary {
+    display: flex;
+    width: 508px;
+    height: 236px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2b2d42;
+    font-weight: 500;
+    line-height: 35px;
+  }
+}
+
+/* 2XL SCREEN: Responsive styles for screens at least 992px wide */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .summary {
+    display: flex;
+    width: 508px;
+    height: 236px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2b2d42;
+    font-weight: 500;
+    line-height: 35px;
+  }
+}
+
+/* 3XL SCREEN: Responsive styles for screens at least 1280px wide */
+@media (min-width: 1199px) {
+  .summary {
+    display: flex;
+    width: 508px;
+    height: 236px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2b2d42;
+    font-weight: 500;
+    line-height: 35px;
+  }
+}
+
+/* STYLING FOR CONTAINER - */
+.container1 {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+/* SMALLEST SCREEN: Responsive styles for screens between 390px and 481px */
+@media (min-width: 390px) and (max-width: 481px) {
+  .container1 {
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+}
+
+/* MEDIUM SCREEN: Responsive styles for 481px until 600px */
+@media (min-width: 481px) and (max-width: 600px) {
+  .container1 {
+    margin-top: -10%;
+    margin-left: 3%;
+  }
+}
+
+/* LARGE SCREEN: Responsive styles for 600px until 768px screens */
+@media (min-width: 600px) and (max-width: 768px) {
+  .container1 {
+    margin-top: -8%;
+    margin-left: 5%;
+  }
+}
+
+/* XL SCREEN: Responsive styles for large screens between 768px until 992px */
+@media (min-width: 768px) and (max-width: 992px) {
+  .container1 {
+    margin-top: -9%;
+    margin-left: -5%;
+  }
+}
+
+/* 2XL SCREEN: Responsive styles for screens at least 992px wide */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container1 {
+    margin-top: -13%;
+    margin-left: 2%;
+  }
+}
+
+/* 3XL SCREEN: Responsive styles for screens at least 1280px wide */
+@media (min-width: 1199px) {
+  .container1 {
+    margin-top: -15%;
+  }
+}
