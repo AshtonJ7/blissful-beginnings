@@ -11,16 +11,14 @@ function Index() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div>
 
-        <img src="/images/v1.png" class="img-fluid" width="15%" alt="logo"/>
+        <img src="/images/v1.png" className="img-fluid" width="15%" alt="logo"/>
 
-        </div>
-        
-        {/* <div>
-          <a className="navbar-brand" href="/">
+        <a className="navbar-brand" href="/" >
             Blissful Beginnings
         </a>
-        </div> */}
 
+        </div>
+      
         <button
           className="navbar-toggler"
           type="button"
@@ -63,7 +61,7 @@ function Index() {
                   <a className="dropdown-item" href="/products/category1">
                     Product 1
                   </a>
-                  <a className="dropdown-item" href="/products/category2">
+                  <a className="dropdown-item" href="/products/category2" >
                     Product 2
                   </a>
                   <div className="dropdown-divider"></div>
