@@ -9,7 +9,7 @@ import {
   TypingIndicator,
 } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY = "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";
+const API_KEY = "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";
 
 function GiftIdea() {
   const [messages, setMessages] = useState([]);
@@ -133,7 +133,7 @@ function GiftIdea() {
 
   return (
     <div className="GiftIdea">
-      <div style={{ position: "relative", height: "300px", width: "250px" }}>
+      <div style={{ position: "relative", height: "250px", width: "700px" }}>
         <MainContainer>
           <ChatContainer>
             <MessageList
