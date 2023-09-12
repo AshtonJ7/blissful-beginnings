@@ -71,7 +71,7 @@ body {
     margin-left: -14%;
     margin-top: 30%;
     font-size: 60px;
-    color: rgb(38, 93, 195);
+    color: black;
     line-height: 4rem;
     white-space: nowrap;
   }
@@ -302,7 +302,7 @@ body {
     margin-right: 23%;
     margin-top: 30%;
     font-size: 50px;
-    color: green;
+    color: black;
     line-height: 4rem;
     white-space: nowrap;
   }
@@ -346,7 +346,7 @@ body {
     margin-right: 26%;
     margin-top: 30%;
     font-size: 46px;
-    color: orange;
+    color: black;
     line-height: 1.2;
     white-space: nowrap;
   }
@@ -393,7 +393,7 @@ body {
     margin-left: 6%;
     margin-top: 10px;
     font-size: 36px;
-    color: green;
+    color: black;
     line-height: 1.5;
     white-space: nowrap;
   }
