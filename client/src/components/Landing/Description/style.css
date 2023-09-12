@@ -47,13 +47,13 @@ body {
 }
 
 /* XL SCREEN: Responsive styles for large screens between 768px until 992px */
-@media (min-width: 768px) and (max-width: 992px) {
+/* @media (min-width: 768px) and (max-width: 992px) {
   .baby-title {
     margin-top: 40%;
     font-size: 35px;
     color: orange;
   }
-}
+} */
 
 /* 2XL SCREEN: Responsive styles for screens at least 992px wide */
 /* @media (min-width: 992px) and (max-width: 1200px) {
@@ -144,7 +144,7 @@ body {
 }
 
 /* XL SCREEN: Responsive styles for large screens between 768px until 992px */
-@media (min-width: 768px) and (max-width: 992px) {
+/* @media (min-width: 768px) and (max-width: 992px) {
   .summary {
     display: flex;
     width: 508px;
@@ -156,7 +156,7 @@ body {
     font-weight: 500;
     line-height: 35px;
   }
-}
+} */
 
 /* 2XL SCREEN: Responsive styles for screens at least 992px wide */
 /* @media (min-width: 992px) and (max-width: 1199px) {
@@ -221,12 +221,12 @@ body {
 }
 
 /* XL SCREEN: Responsive styles for large screens between 768px until 992px */
-@media (min-width: 768px) and (max-width: 992px) {
+/* @media (min-width: 768px) and (max-width: 992px) {
   .container1 {
     margin-top: -9%;
     margin-left: -5%;
   }
-}
+} */
 
 /* 2XL SCREEN: Responsive styles for screens at least 992px wide */
 /* @media (min-width: 992px) and (max-width: 1199px) {
@@ -299,7 +299,7 @@ body {
 /* 2XL SCREEN: Responsive styles for screens at least 992px wide */
 @media (min-width: 992px) and (max-width: 1199px) {
   .baby-title {
-    margin-right: 23%; /* Adjust the left margin as needed */
+    margin-right: 23%;
     margin-top: 30%;
     font-size: 50px;
     color: green;
@@ -308,25 +308,71 @@ body {
   }
   .summary {
     display: flex;
-    width: 70%; /* Adjust the width as needed */
-    max-width: 445px; /* Set a maximum width */
-    height: auto; /* Use auto height to allow content to determine the height */
+    width: 70%;
+    max-width: 445px;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
     color: #2b2d42;
     font-weight: 500;
-    line-height: 30px; /* Adjust the line-height as needed */
-    margin-top: 2%; /* Adjust the top margin as needed */
-    margin-left: 2%; /* Adjust the left margin as needed */
+    line-height: 30px;
+    margin-top: 2%;
+    margin-left: 2%;
   }
 
   .container1 {
-    margin-top: -3%; /* Adjust the top margin as needed */
+    margin-top: -3%;
   }
   .btn {
     margin-left: 2%;
     margin-top: 7%;
+    width: 130px;
+    height: 40.2px;
+    color: var(--dust-red-4, #ff7875);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+  }
+}
+
+/* XL SCREEN: Responsive styles for screens between 768px and 992px wide */
+@media (min-width: 768px) and (max-width: 991px) {
+  .baby-title {
+    margin-right: 26%;
+    margin-top: 30%;
+    font-size: 46px;
+    color: orange;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+  .summary {
+    display: flex;
+    width: 80%;
+    max-width: 445px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2b2d42;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  .container1 {
+    margin-top: 4%;
+    margin-right: 5px;
+  }
+  .btn {
+    margin-left: 5%;
+    margin-top: 20px;
     width: 130px;
     height: 40.2px;
     color: var(--dust-red-4, #ff7875);
