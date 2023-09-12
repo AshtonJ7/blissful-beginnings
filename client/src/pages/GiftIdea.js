@@ -9,7 +9,7 @@ import {
   TypingIndicator,
 } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY = "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";
+const API_KEY = "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";
 
 function GiftIdea() {
   const [messages, setMessages] = useState([]);
