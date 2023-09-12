@@ -215,6 +215,7 @@ button[disabled] {
 .continueshopping{
   color: var(--dusty-pink);
   text-decoration: none;
+  font-family: "montserrat", sans-serif;
 }
 .continueshopping:hover{
   color: var(--pink);
@@ -224,7 +225,16 @@ button[disabled] {
 .detailsimage{
   width:50%;
 }
-
+.producttitle{
+  color: var(--dusty-pink);
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "montserrat", sans-serif;
+}
+.producttitle:hover{
+  color: var(--pink);
+  text-decoration: none;
+}
 /* .productcontainer {
   display: flex;
 
