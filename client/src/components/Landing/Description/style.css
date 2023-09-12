@@ -38,13 +38,13 @@ body {
 }
 
 /* LARGE SCREEN: Responsive styles for 600px until 768px */
-@media (min-width: 600px) and (max-width: 768px) {
+/* @media (min-width: 600px) and (max-width: 768px) {
   .baby-title {
     margin-top: 50%;
     font-size: 35px;
     color: blue;
   }
-}
+} */
 
 /* XL SCREEN: Responsive styles for large screens between 768px until 992px */
 /* @media (min-width: 768px) and (max-width: 992px) {
@@ -129,7 +129,7 @@ body {
 }
 
 /* LARGE SCREEN: Responsive styles for 600px until 768px screens */
-@media (min-width: 600px) and (max-width: 768px) {
+/* @media (min-width: 600px) and (max-width: 768px) {
   .summary {
     display: flex;
     width: 508px;
@@ -141,7 +141,7 @@ body {
     font-weight: 500;
     line-height: 35px;
   }
-}
+} */
 
 /* XL SCREEN: Responsive styles for large screens between 768px until 992px */
 /* @media (min-width: 768px) and (max-width: 992px) {
@@ -213,12 +213,12 @@ body {
 }
 
 /* LARGE SCREEN: Responsive styles for 600px until 768px screens */
-@media (min-width: 600px) and (max-width: 768px) {
+/* @media (min-width: 600px) and (max-width: 768px) {
   .container1 {
     margin-top: -8%;
     margin-left: 5%;
   }
-}
+} */
 
 /* XL SCREEN: Responsive styles for large screens between 768px until 992px */
 /* @media (min-width: 768px) and (max-width: 992px) {
@@ -370,6 +370,50 @@ body {
     margin-top: 4%;
     margin-right: 5px;
   }
+  .btn {
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 130px;
+    height: 40.2px;
+    color: var(--dust-red-4, #ff7875);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+  }
+}
+
+/* LG SCREEN: Responsive styles for screens between 600px and 768px wide */
+@media (min-width: 600px) and (max-width: 768px) {
+  .baby-title {
+    margin-right: 37%;
+    margin-left: 6%;
+    margin-top: 10px;
+    font-size: 36px;
+    color: green;
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+
+  .summary {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    color: #2b2d42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 15px;
+  }
+
+  .container1 {
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+
   .btn {
     margin-left: 5%;
     margin-top: 20px;
