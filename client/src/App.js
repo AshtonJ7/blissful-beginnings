@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {
   ApolloClient,
@@ -17,6 +17,7 @@ import Nav from "./components/Nav";
 import { StoreProvider } from "./utils/GlobalState";
 import Success from "./pages/Success";
 import OrderHistory from "./pages/OrderHistory";
+import AuthService from './utils/auth';
 
 const httpLink = createHttpLink({
   uri: "/graphql",
@@ -38,12 +39,24 @@ const client = new ApolloClient({
 });
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(AuthService.loggedIn());
+
+  useEffect(() => {
+    // Update the isLoggedIn state when the component mounts
+    setIsLoggedIn(AuthService.loggedIn());
+  }, []);
+
+  const handleLogoutClick = () => {
+    AuthService.logout(); // Call the logout method from AuthService
+    setIsLoggedIn(false); // Update the local state to reflect the logout
+  };
+
   return (
     <ApolloProvider client={client}>
       <Router>
         <div>
           <StoreProvider>
-            <Nav />
+            <Nav isLoggedIn={isLoggedIn} onLogoutClick={handleLogoutClick} />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/login" element={<Login />} />
@@ -51,7 +64,16 @@ function App() {
               <Route path="/success" element={<Success />} />
               <Route path="/orderHistory" element={<OrderHistory />} />
               <Route path="/products/:id" element={<Detail />} />
-              <Route path="/account" element={<Login />} />{" "}
+              <Route
+                path="/account"
+                element={
+                  isLoggedIn ? (
+                    <button onClick={handleLogoutClick}>Log Out</button>
+                  ) : (
+                    <Login />
+                  )
+                }
+              />
               <Route path="*" element={<NoMatch />} />
             </Routes>
           </StoreProvider>

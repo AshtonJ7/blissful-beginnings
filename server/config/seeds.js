@@ -21,7 +21,7 @@ db.once('open', async () => {
     {
       name: 'Sleepsuit 3-pack',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        "A pack of 3 sleepsuits that ensures your little one has a snug night's sleep. 100% cotton",
       image: 'sleepsuit-pack.jpg',
       category: categories[0]._id,
       price: 14.99,
@@ -30,7 +30,7 @@ db.once('open', async () => {
     {
       name: 'Pink Sleepsuit',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        'A pink sleepsuit with a white crown pattern for your little princess (maracas not included). 100% cotton',
       image: 'sleepsuit-girl.jpg',
       category: categories[0]._id,
       price: 7.99,
@@ -39,7 +39,7 @@ db.once('open', async () => {
     {
       name: 'Socks 3-pack',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        'A 3-pack of luxurious socks which come in dark grey, light grey, and beige. Perfect to keep feet warm and snug. 50% wool, 50% cotton.',
       image: 'socks-3-pack.jpg',
       category: categories[0]._id,
       price: 7.99,
@@ -48,7 +48,7 @@ db.once('open', async () => {
     {
       name: 'Grey Knitted Jumper',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        'For when the weather gets cold, this knitted jumper is guranteed to keep your little one warm. 100% wool',
       image: 'baby-jumper.jpg',
       category: categories[0]._id,
       price: 14.99,
@@ -58,7 +58,7 @@ db.once('open', async () => {
       name: 'Animal Baby Bottle',
       category: categories[1]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
+        'A baby bottle decorated with animals that is suitable for milk or any other cold or warm liquid. Not suitable for hot liquids.',
       image: 'baby-bottle.jpg ',
       price: 4.99,
       quantity: 550
@@ -67,7 +67,7 @@ db.once('open', async () => {
       name: 'Pushchair',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
+        'This pushchair is suitable from birth to 10kg, ensuring a safe and pleasant experience for both your baby and you. Includes a storage compartment and reclinable seat.',
       image: 'pushchair.jpg',
       price: 199.99,
       quantity: 76
@@ -76,7 +76,7 @@ db.once('open', async () => {
       name: 'Baby Powder',
       category: categories[1]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
+        'Helps protect from rubbing and chafing and leaves skin soft, dry and feelng healthy. Purified talc fully evaluated by scientists and medical experts to ensure the safety and satisfaction for you and your baby',
       image: 'baby-powder.jpg',
       price: 7.99,
       quantity: 500

@@ -3,7 +3,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
-function Index() {
+function Index({ isLoggedIn, onLogoutClick}) {
 
   return (
     <div>
@@ -76,9 +76,15 @@ function Index() {
                 </a>
               </li>
               <li className="nav-item">
-                <Link to="/account" className="nav-link">
-                  My Account
-                </Link>
+              {isLoggedIn ? (
+            <button onClick={onLogoutClick} className="nav-link btn btn-link">
+              Log Out
+            </button>
+          ) : (
+            <Link to="/account" className="nav-link">
+              My Account
+            </Link>
+          )}
               </li>
               <li className="nav-item">
             <Link className="nav-link" to="/orderHistory">
