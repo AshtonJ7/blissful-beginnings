@@ -17,8 +17,10 @@
     "concurrently": "^5.1.0"
   },
   "dependencies": {
+    "@chatscope/chat-ui-kit-react": "github:chatscope/chat-ui-kit-react",
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.5",
-    "emoji": "^0.3.2"
+    "emoji": "^0.3.2",
+    "react-simple-chatbot": "^0.6.1"
   }
 }
