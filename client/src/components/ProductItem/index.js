@@ -40,9 +40,10 @@ function ProductItem(item) {
   }
 
   return (
-    <div className="card px-1 py-1">
+    <div id="productcard" className="card px-1 py-1" style={{display: "inline-block", margin: "5px"}}>
       <Link to={`/products/${_id}`}>
         <img
+          className="productimage"
           alt={name}
           src={`/images/${image}`}
         />

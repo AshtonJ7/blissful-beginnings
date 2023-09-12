@@ -41,7 +41,7 @@ function Index() {
                   Home
                 </a>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   href="/products"
@@ -66,9 +66,9 @@ function Index() {
                   <div className="dropdown-divider"></div>
                   <a className="dropdown-item" href="/products/all">
                     All Products
-                  </a>
-                </div>
-              </li>
+                  </a> */}
+                {/* </div>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="/about">
                   About
@@ -108,7 +108,7 @@ function Index() {
       </nav>
 
       {/* Static Navbar with Divider */}
-      <div
+      {/* <div
         className="container-fluid"
         style={{ whiteSpace: "nowrap", backgroundColor: "#FFE5D9" }}
       >
@@ -170,10 +170,10 @@ function Index() {
               style={{ fontSize: "18px", display: "block", padding: "10px 0" }}
             >
               Sets & Bundles
-            </a>
-          </div>
+            </a> */}
+          {/* </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
