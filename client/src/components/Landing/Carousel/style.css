@@ -39,3 +39,25 @@
     margin-bottom: 10px;
   }
 }
+
+/* 3XL SCREEN: Responsive styles for screens at least 1302px wide */
+@media (min-width: 1199px) and (max-width: 1300px) {
+  .box {
+    width: 80%;
+    max-width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+}
+
+/* 4XL SCREEN: Responsive styles for screens at least 1302px wide */
+@media (min-width: 1300px) {
+  .box {
+    width: 100%;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+}

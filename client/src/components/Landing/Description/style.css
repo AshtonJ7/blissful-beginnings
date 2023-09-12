@@ -66,7 +66,7 @@ body {
 } */
 
 /* 3XL SCREEN: Responsive styles for screens at least 1200px wide */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .baby-title {
     margin-left: -14%;
     margin-top: 30%;
@@ -75,7 +75,7 @@ body {
     line-height: 4rem;
     white-space: nowrap;
   }
-}
+} */
 
 /* STYLING FOR PARAGRAPH - */
 .summary {
@@ -174,7 +174,7 @@ body {
 } */
 
 /* 3XL SCREEN: Responsive styles for screens at least 1200px wide */
-@media (min-width: 1199px) and (max-width: 1301px) {
+/* @media (min-width: 1199px) and (max-width: 1301px) {
   .summary {
     display: flex;
     width: 508px;
@@ -188,7 +188,7 @@ body {
     margin-top: 2%;
     margin-left: 4%;
   }
-}
+} */
 
 /* STYLING FOR CONTAINER - */
 .container1 {
@@ -240,47 +240,48 @@ body {
 } */
 
 /* 3XL SCREEN: Responsive styles for screens at least 1200px wide */
-@media (min-width: 1199px) and (max-width: 1301px) {
+/* @media (min-width: 1199px) and (max-width: 1301px) {
   .container1 {
     margin-top: -3%;
   }
   .btn {
     margin-left: 4%;
   }
-}
+} */
 
-/* 4XL SCREEN: Responsive styles for screens at least 1301px wide until 1400px */
-@media (min-width: 1301px) {
+/* ------------------------------IGNORE CODE ABOVE - IT IS A MESS - NEEDS ADJUSTING....................................... */
+
+/* LG SCREEN: Responsive styles for screens between 600px and 768px wide */
+@media (min-width: 600px) and (max-width: 768px) {
   .baby-title {
-    margin-top: 1%;
-    margin-left: 4%;
-    text-align: left;
+    margin-right: 37%;
+    margin-left: 6%;
+    margin-top: 10px;
+    font-size: 36px;
     color: black;
-    line-height: 4rem;
+    line-height: 1.5;
     white-space: nowrap;
   }
 
   .summary {
-    display: flex;
-    width: 508px;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
     color: #2b2d42;
     font-weight: 500;
-    line-height: 35px;
-    margin-bottom: -8%;
-    margin-left: 4%;
-    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 15px;
   }
 
   .container1 {
-    margin-top: 10%;
-    margin-left: 160px;
+    margin-top: 40px;
+    margin-left: 10px;
   }
 
   .btn {
+    margin-left: 5%;
+    margin-top: 20px;
     width: 130px;
     height: 40.2px;
     color: var(--dust-red-4, #ff7875);
@@ -290,8 +291,52 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    margin-left: 25px;
-    margin-top: 120px;
+    font-family: "Inter", sans-serif;
+  }
+}
+
+/* XL SCREEN: Responsive styles for screens between 768px and 992px wide */
+@media (min-width: 768px) and (max-width: 992px) {
+  .baby-title {
+    margin-right: 26%;
+    margin-top: 30%;
+    font-size: 46px;
+    color: black;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+  .summary {
+    display: flex;
+    width: 80%;
+    max-width: 445px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2b2d42;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+  .container1 {
+    margin-top: 4%;
+    margin-right: 5px;
+  }
+  .btn {
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 130px;
+    height: 40.2px;
+    color: var(--dust-red-4, #ff7875);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
     font-family: "Inter", sans-serif;
   }
 }
@@ -340,39 +385,39 @@ body {
   }
 }
 
-/* XL SCREEN: Responsive styles for screens between 768px and 992px wide */
-@media (min-width: 768px) and (max-width: 991px) {
+/* 3XL SCREEN: Responsive styles for screens at least 1199px wide */
+@media (min-width: 1199px) and (max-width: 1300px) {
   .baby-title {
-    margin-right: 26%;
-    margin-top: 30%;
+    margin-top: 1%;
+    margin-left: 4%;
     font-size: 46px;
+    text-align: left;
     color: black;
-    line-height: 1.2;
+    line-height: 4rem;
     white-space: nowrap;
   }
+
   .summary {
     display: flex;
-    width: 80%;
-    max-width: 445px;
+    width: 508px;
     height: auto;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
     color: #2b2d42;
     font-weight: 500;
-    line-height: 1.5;
-    margin-top: 20px;
-    margin-left: 5%;
-    margin-right: auto;
+    line-height: 35px;
+    margin-bottom: -8%;
+    margin-left: 4%;
+    text-align: left;
   }
 
   .container1 {
-    margin-top: 4%;
-    margin-right: 5px;
+    margin-top: 10%;
+    margin-left: 160px;
   }
+
   .btn {
-    margin-left: 5%;
-    margin-top: 20px;
     width: 130px;
     height: 40.2px;
     color: var(--dust-red-4, #ff7875);
@@ -382,41 +427,45 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    margin-left: 25px;
+    margin-top: 120px;
     font-family: "Inter", sans-serif;
   }
 }
 
-/* LG SCREEN: Responsive styles for screens between 600px and 768px wide */
-@media (min-width: 600px) and (max-width: 768px) {
+/* 4XL SCREEN: Responsive styles for screens at least 1300px wide until 1400px */
+@media (min-width: 1300px) {
   .baby-title {
-    margin-right: 37%;
-    margin-left: 6%;
-    margin-top: 10px;
-    font-size: 36px;
+    margin-top: 1%;
+    margin-left: 4%;
+    font-size: 56px;
+    text-align: left;
     color: black;
-    line-height: 1.5;
+    line-height: 4rem;
     white-space: nowrap;
   }
 
   .summary {
-    width: 80%;
-    max-width: 400px;
-    margin: 20px auto;
+    display: flex;
+    width: 508px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
     color: #2b2d42;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-left: 15px;
+    line-height: 35px;
+    margin-bottom: -8%;
+    margin-left: 4%;
+    text-align: left;
   }
 
   .container1 {
-    margin-top: 40px;
-    margin-left: 10px;
+    margin-top: 10%;
+    margin-left: 160px;
   }
 
   .btn {
-    margin-left: 5%;
-    margin-top: 20px;
     width: 130px;
     height: 40.2px;
     color: var(--dust-red-4, #ff7875);
@@ -426,6 +475,8 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    margin-left: 25px;
+    margin-top: 120px;
     font-family: "Inter", sans-serif;
   }
 }
