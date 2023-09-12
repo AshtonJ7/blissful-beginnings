@@ -1,10 +1,12 @@
 import React from "react";
-import Carousel from "./Carousel/index";
+import Description from "./Description/index";
+import Images from "./Carousel/Images";
 
 function index() {
   return (
-    <div>
-      <Carousel />
+    <div style={{ display: "flex" }}>
+      <Description />
+      <Images />
     </div>
   );
 }

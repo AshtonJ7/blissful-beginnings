@@ -6,43 +6,53 @@ function Index() {
     <div>
       {/* Main Navbar */}
       <nav className="custom-navbar">
-        <a className="navbar-brand" href="/">
-          Navbar
-        </a>
-        {/* Remove the navbar toggler button */}
+        <div>
+          <img src="../images/temp-logo.svg" alt="logo" />
+        </div>
         <div className="mx-auto">
           <div className="custom-collapse">
             <ul className="navbar-nav custom-navbar-nav">
               <li className="custom-nav-item">
-                <span className="custom-nav-link">Home</span>
+                <a className="custom-nav-link" href="/">
+                  Home
+                </a>
               </li>
               <li className="custom-nav-item">
-                <span className="custom-nav-link">Products</span>
+                <a className="custom-nav-link" href="/products">
+                  Products
+                </a>
               </li>
               <li className="custom-nav-item">
-                <span className="custom-nav-link">About</span>
+                <a className="custom-nav-link" href="/about">
+                  About
+                </a>
               </li>
               <li className="custom-nav-item">
-                <span className="custom-nav-link">My Account</span>
+                <a className="custom-nav-link" href="/account">
+                  My Account
+                </a>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Search Bar */}
-        <form className="custom-search-form">
-          <div className="input-group">
-            <input
-              className="custom-search-input"
-              type="search"
-              placeholder="Search for anything"
-              aria-label="Search"
-            />
+        {/* Search Bar and Shopping Cart Container */}
+        <div className="custom-search-cart-container">
+          {/* Search Bar */}
+          <form className="custom-search-form">
+            <div className="input-group">
+              <input
+                className="custom-search-input"
+                type="search"
+                placeholder="Search for anything"
+                aria-label="Search"
+              />
+            </div>
+          </form>
+          {/* Shopping Cart Icon */}
+          <div className="custom-cart-icon">
+            <i className="fa fa-shopping-cart fa-2x"></i>
           </div>
-        </form>
-        {/* Shopping Cart Icon */}
-        <div className="custom-cart-icon">
-          <i className="fa fa-shopping-cart fa-2x"></i>
         </div>
       </nav>
 

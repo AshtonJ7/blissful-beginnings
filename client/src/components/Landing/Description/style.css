@@ -1,11 +1,14 @@
 /* Default styles h1 */
 h1 {
   text-align: center;
-  font-family: Raleway;
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
 }
 
 /* STYLING FOR THE H1 TITLE 'BABY CLOTHING */
@@ -61,10 +64,10 @@ h1 {
   }
 }
 
-/* 3XL SCREEN: Responsive styles for screens at least 1280px wide */
+/* 3XL SCREEN: Responsive styles for screens at least 1200px wide */
 @media (min-width: 1200px) {
   .baby-title {
-    margin-right: 0;
+    margin-right: 60%;
     margin-top: 30%;
     font-size: 60px;
     color: rgb(38, 93, 195);
@@ -167,8 +170,8 @@ h1 {
   }
 }
 
-/* 3XL SCREEN: Responsive styles for screens at least 1280px wide */
-@media (min-width: 1199px) {
+/* 3XL SCREEN: Responsive styles for screens at least 1200px wide */
+@media (min-width: 1199px) and (max-width: 1301px) {
   .summary {
     display: flex;
     width: 508px;
@@ -179,6 +182,8 @@ h1 {
     color: #2b2d42;
     font-weight: 500;
     line-height: 35px;
+    margin-top: 2%;
+    margin-left: 4%;
   }
 }
 
@@ -228,9 +233,56 @@ h1 {
   }
 }
 
-/* 3XL SCREEN: Responsive styles for screens at least 1280px wide */
-@media (min-width: 1199px) {
+/* 3XL SCREEN: Responsive styles for screens at least 1200px wide */
+@media (min-width: 1199px) and (max-width: 1301px) {
   .container1 {
-    margin-top: -15%;
+    margin-top: -13%;
+  }
+}
+
+/* 4XL SCREEN: Responsive styles for screens at least 1301px wide until 1400px */
+@media (min-width: 1301px) {
+  .baby-title {
+    margin-top: 1%;
+    margin-left: 4%;
+    text-align: left;
+    color: black;
+    line-height: 4rem;
+    white-space: nowrap;
+  }
+
+  .summary {
+    display: flex;
+    width: 508px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2b2d42;
+    font-weight: 500;
+    line-height: 35px;
+    margin-bottom: -8%;
+    margin-left: 4%;
+    text-align: left;
+  }
+
+  .container1 {
+    margin-top: 10%;
+    margin-left: 160px;
+  }
+
+  .btn {
+    width: 130px;
+    height: 40.2px;
+    color: var(--dust-red-4, #ff7875);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 25px;
+    margin-top: 120px;
+    font-family: "Inter", sans-serif;
   }
 }

@@ -11,6 +11,7 @@ function index() {
         details, like nickel-free poppers that won’t irritate soft skin, and
         elasticated waistbands that’ll be oh-so-comfy for baby.{" "}
       </p>
+      <button className="btn">Read More</button>
     </div>
   );
 }
