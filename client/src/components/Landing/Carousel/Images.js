@@ -1,4 +1,5 @@
 import { Carousel } from "react-responsive-carousel";
+import "./style.css";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 const images = [
@@ -9,10 +10,7 @@ const images = [
 
 function Images() {
   return (
-    <div
-      className="box"
-      style={{ width: 500, marginLeft: 250, marginTop: 100 }}
-    >
+    <div className="box">
       <Carousel
         useKeyboardArrows={true}
         infiniteLoop={true}

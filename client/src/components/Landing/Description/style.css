@@ -56,21 +56,24 @@ body {
 }
 
 /* 2XL SCREEN: Responsive styles for screens at least 992px wide */
-@media (min-width: 992px) and (max-width: 1200px) {
+/* @media (min-width: 992px) and (max-width: 1200px) {
   .baby-title {
     margin-top: 30%;
     font-size: 60px;
     color: green;
+    margin-right: 16%;
   }
-}
+} */
 
 /* 3XL SCREEN: Responsive styles for screens at least 1200px wide */
 @media (min-width: 1200px) {
   .baby-title {
-    margin-right: 60%;
+    margin-left: -14%;
     margin-top: 30%;
     font-size: 60px;
     color: rgb(38, 93, 195);
+    line-height: 4rem;
+    white-space: nowrap;
   }
 }
 
@@ -156,7 +159,7 @@ body {
 }
 
 /* 2XL SCREEN: Responsive styles for screens at least 992px wide */
-@media (min-width: 992px) and (max-width: 1199px) {
+/* @media (min-width: 992px) and (max-width: 1199px) {
   .summary {
     display: flex;
     width: 508px;
@@ -168,7 +171,7 @@ body {
     font-weight: 500;
     line-height: 35px;
   }
-}
+} */
 
 /* 3XL SCREEN: Responsive styles for screens at least 1200px wide */
 @media (min-width: 1199px) and (max-width: 1301px) {
@@ -226,17 +229,23 @@ body {
 }
 
 /* 2XL SCREEN: Responsive styles for screens at least 992px wide */
-@media (min-width: 992px) and (max-width: 1199px) {
+/* @media (min-width: 992px) and (max-width: 1199px) {
   .container1 {
     margin-top: -13%;
-    margin-left: 2%;
+    margin-left: 3%;
   }
-}
+  .btn {
+    margin-left: 4%;
+  }
+} */
 
 /* 3XL SCREEN: Responsive styles for screens at least 1200px wide */
 @media (min-width: 1199px) and (max-width: 1301px) {
   .container1 {
-    margin-top: -13%;
+    margin-top: -3%;
+  }
+  .btn {
+    margin-left: 4%;
   }
 }
 
@@ -283,6 +292,50 @@ body {
     line-height: 24px;
     margin-left: 25px;
     margin-top: 120px;
+    font-family: "Inter", sans-serif;
+  }
+}
+
+/* 2XL SCREEN: Responsive styles for screens at least 992px wide */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .baby-title {
+    margin-right: 23%; /* Adjust the left margin as needed */
+    margin-top: 30%;
+    font-size: 50px;
+    color: green;
+    line-height: 4rem;
+    white-space: nowrap;
+  }
+  .summary {
+    display: flex;
+    width: 70%; /* Adjust the width as needed */
+    max-width: 445px; /* Set a maximum width */
+    height: auto; /* Use auto height to allow content to determine the height */
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #2b2d42;
+    font-weight: 500;
+    line-height: 30px; /* Adjust the line-height as needed */
+    margin-top: 2%; /* Adjust the top margin as needed */
+    margin-left: 2%; /* Adjust the left margin as needed */
+  }
+
+  .container1 {
+    margin-top: -3%; /* Adjust the top margin as needed */
+  }
+  .btn {
+    margin-left: 2%;
+    margin-top: 7%;
+    width: 130px;
+    height: 40.2px;
+    color: var(--dust-red-4, #ff7875);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
     font-family: "Inter", sans-serif;
   }
 }

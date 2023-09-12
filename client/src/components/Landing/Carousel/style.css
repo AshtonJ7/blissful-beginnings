@@ -1,0 +1,19 @@
+/* style.css for the image component */
+.box {
+  width: 500px;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+/* --------MEDIA QUERIES - FOR IMAGE COMPONENT ----------- */
+
+/* Apply responsive styles for screens between 992px and 1199px wide */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .box {
+    width: 80%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+}
