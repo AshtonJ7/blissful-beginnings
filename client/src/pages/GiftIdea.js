@@ -9,7 +9,8 @@ import {
   TypingIndicator,
 } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY = "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";
+
+const API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
 
 function GiftIdea() {
   const [messages, setMessages] = useState([]);
@@ -98,42 +99,32 @@ function GiftIdea() {
   };
 
   const handleUserResponse = (userResponse) => {
-    // Check user response and continue the conversation based on the script
-    if (userResponse.toLowerCase().includes("yes")) {
-      setMessages([...messages, { message: "Is it for an child or adult?", sender: "ChatGPT" }]);
-    } else if (userResponse.toLowerCase().includes("no")) {
+    const lowercaseResponse = userResponse.toLowerCase();
+
+    if (/adult/i.test(lowercaseResponse)) {
       setMessages([
         ...messages,
         {
-          message: "No problem, feel free to explore our store.",
+          message: "I can suggest some great gift ideas for adults with kids. Please feel free to have a look at our hand-made <a href='https://www.google.com' target='_blank'>Furniture</a>.",
           sender: "ChatGPT",
         },
       ]);
-    } else if (userResponse.toLowerCase().includes("adult")) {
+    } else if (/child/i.test(lowercaseResponse)) {
       setMessages([
         ...messages,
         {
-          message: "I can suggest some great adult gift ideas. Please visit LINK.",
-          sender: "ChatGPT",
-        },
-      ]);
-    } else if (userResponse.toLowerCase().includes("child")) {
-      setMessages([
-        ...messages,
-        {
-          message: "I can suggest some wonderful children's gift ideas. Please visit <a href='https://www.google.com' target='_blank'>www.google.com</a>",
+          message: "I can suggest some wonderful children's gifts. Please click on the link to browse through our <a href='https://www.google.com' target='_blank'>Toys</a> section. This bear <a href='https://www.google.com' target='_blank'>Plushie</a> is a fan favorite among our customers!",
           sender: "ChatGPT",
         },
       ]);
     } else {
-      // If user response is unclear, ask again
-      setMessages([...messages, { message: "I'm sorry, I didn't understand. Is it for an adult or child?", sender: "ChatGPT" }]);
+      setMessages([...messages, { message: "I'm sorry, I didn't understand. Is it for an adult or a child?", sender: "ChatGPT" }]);
     }
   };
 
   return (
     <div className="GiftIdea">
-      <div style={{ position: "relative", height: "250px", width: "700px" }}>
+      <div style={{ position: "relative", height: "300px", width: "700px" }}>
         <MainContainer>
           <ChatContainer>
             <MessageList
