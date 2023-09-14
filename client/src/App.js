@@ -42,13 +42,12 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(AuthService.loggedIn());
 
   useEffect(() => {
-    // Update the isLoggedIn state when the component mounts
     setIsLoggedIn(AuthService.loggedIn());
   }, []);
 
   const handleLogoutClick = () => {
-    AuthService.logout(); // Call the logout method from AuthService
-    setIsLoggedIn(false); // Update the local state to reflect the logout
+    AuthService.logout(); 
+    setIsLoggedIn(false); 
   };
 
   return (
