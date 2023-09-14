@@ -1,5 +1,5 @@
 {
-  "name": "mern-shopping",
+  "name": "blissful-beginnings",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -25,6 +25,7 @@
     "emoji": "^0.3.2",
     "env": "^0.0.2",
     "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.1",
     "react-responsive-carousel": "^3.2.23",
     "react-simple-chatbot": "^0.6.1"
   }

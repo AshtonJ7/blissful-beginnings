@@ -21,7 +21,7 @@ db.once('open', async () => {
     {
       name: 'Sleepsuit 3-pack',
       description:
-        "A pack of 3 sleepsuits that ensures your little one has a snug night's sleep. 100% cotton",
+        "A pack of 3 sleepsuits that ensures your little one has a snug night's sleep. 100% cotton.",
       image: 'sleepsuit-pack.jpg',
       category: categories[0]._id,
       price: 14.99,
@@ -30,7 +30,7 @@ db.once('open', async () => {
     {
       name: 'Pink Sleepsuit',
       description:
-        'A pink sleepsuit with a white crown pattern for your little princess (maracas not included). 100% cotton',
+        'A pink sleepsuit with a white crown pattern for your little princess. 100% cotton.',
       image: 'sleepsuit-girl.jpg',
       category: categories[0]._id,
       price: 7.99,
@@ -85,7 +85,7 @@ db.once('open', async () => {
       name: 'Nursery Cot',
       category: categories[2]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
+        "Ensure that your baby has a great night's sleep with this prestine cot that not only looks modern, but offers a comfortable, padded dreaming experience.",
       image: 'cot.jpg',
       price: 135.99,
       quantity: 60
@@ -94,7 +94,7 @@ db.once('open', async () => {
       name: 'Storage Drawers',
       category: categories[2]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
+        "Need somewhere to store your little one's clothes, toys, or care products? This compact, but roomy, set of storage drawers ensures that no mess is left around the room. Easily contructed with instructions. Comes with all necessary screws and brackets.",
       image: 'drawers.jpg',
       price: 150.99,
       quantity: 45
@@ -103,7 +103,7 @@ db.once('open', async () => {
       name: 'Alphabet Learning Book',
       category: categories[3]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
+        "It's important for your little one to learn and grow, and this alphabet book is the a must-have for any alphabet teaching. Includes fun bookmarks and stickers.",
       image: 'book.jpg',
       price: 7.99,
       quantity: 1000
@@ -111,7 +111,7 @@ db.once('open', async () => {
     {
       name: 'Abacus',
       category: categories[3]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
+      description: "It's sometimes good to rely on the classics! This prestine, well-built, abacus will help your child with basic mathematical learning in an enjoyable manner.",
       image: 'abacus.jpg',
       price: 8.99,
       quantity: 200
@@ -120,7 +120,7 @@ db.once('open', async () => {
       name: 'Elephant Plush',
       category: categories[4]._id,
       description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
+        "This adorable, high-quality elephant plush is guaranteed to become your baby's cuddle companion whether out and about, or sleeping tight. Machine Washable. Suitable from birth.",
       image: 'elephant-plush.jpg',
       price: 8.99,
       quantity: 100
@@ -129,7 +129,7 @@ db.once('open', async () => {
       name: 'Bear Plush',
       category: categories[4]._id,
       description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
+        'This cuddly, high-quality bear plush provides a soft and huggable experience for you little one. Machine Washable. Suitable from birth.',
       image: 'bear-plush.jpg',
       price: 8.99,
       quantity: 100
@@ -138,7 +138,7 @@ db.once('open', async () => {
       name: 'Rabbit Plush',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+        'This soft rabbit plush has a velvety feel and floppy ears that your little one will love and cherish for years to come! Machine Washable. Suitable from birth.',
       image: 'rabbit-plush.jpg',
       price: 8.99,
       quantity: 100
@@ -147,7 +147,7 @@ db.once('open', async () => {
       name: 'Baby Monitor',
       category: categories[5]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+        'Keep an eye on your baby at night with this state of the art baby monitor with connecting camera and small screen. You never have to worry again about your little one crying or climbing out of their cot without you knowing.',
       image: 'baby-monitor.jpg',
       price: 79.99,
       quantity: 150
@@ -156,11 +156,38 @@ db.once('open', async () => {
       name: 'Baby Thermometer',
       category: categories[5]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+        "Check your child's temperature with ease with this oral thermometer with accurate results. This safe-to-use thermometer contains a non-mercury liquid. Keep away from children.",
       image: 'thermometer.jpg',
       price: 25.99,
       quantity: 750
-    }
+    },
+    {
+    name: 'Toy Chest',
+      category: categories[2]._id,
+      description:
+        "Toys all over the floor and nowhere to put them? This toy chest will fix that for you. With a large capacity and well-built wooden material, this chest is guaranteed to last you and your baby years upon years.",
+      image: 'ToyChest.jpg',
+      price: 84.99,
+      quantity: 125
+    }, 
+    {
+    name: 'Locomotive Animal Sounds Toy',
+      category: categories[3]._id,
+      description:
+        "With light and sound effects, this toy allows your baby to learn animal sounds while also moving these animals on a wheelable train. Your little one is guranteed to love every second playing and learning with this animal sound toy. AA batteries not included.",
+      image: 'animal-sounds.jpg',
+      price: 84.99,
+      quantity: 800
+    },
+    {
+      name: 'Baby proof tablet',
+        category: categories[5]._id,
+        description:
+          "This tablet will open up a world of adventures for your baby, allowing them to watch their favourite tv shows, videos, and movies, while also containing educational games to keep thier mind constanly working.",
+        image: 'tablet.jpg',
+        price: 250.99,
+        quantity: 500
+      }
   ]);
 
   console.log('products seeded');
