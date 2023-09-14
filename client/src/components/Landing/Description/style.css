@@ -249,7 +249,7 @@ body {
   }
 } */
 
-/* ------------------------------IGNORE CODE ABOVE - IT IS A MESS - NEEDS ADJUSTING....................................... */
+/* ------------------------------IGNORE CODE ABOVE - IT IS A MESS - NEEDS ADJUSTING FOR BREAKPOINTS UNDER 600PX....................................... */
 
 /* LG SCREEN: Responsive styles for screens between 600px and 768px wide */
 @media (min-width: 600px) and (max-width: 768px) {
