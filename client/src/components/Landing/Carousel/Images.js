@@ -8,7 +8,7 @@ const images = [
 ];
 function Images() {
   return (
-    <div className="box">
+    <div className="box" style={{margin: "none"}}>
       <Carousel
         useKeyboardArrows={true}
         infiniteLoop={true}
