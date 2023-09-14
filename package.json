@@ -18,11 +18,13 @@
   },
   "dependencies": {
     "@chatscope/chat-ui-kit-react": "github:chatscope/chat-ui-kit-react",
+    "bcrypt": "5.1.1",
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.5",
     "dotenv": "^16.3.1",
     "emoji": "^0.3.2",
     "env": "^0.0.2",
+    "jsonwebtoken": "9.0.2",
     "react-simple-chatbot": "^0.6.1"
   }
 }

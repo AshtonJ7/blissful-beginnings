@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { LOGIN } from "../utils/mutations";
 import Auth from "../utils/auth";
 
+
 function Login(props) {
   const [formState, setFormState] = useState({ email: "", password: "" });
   const [login, { error }] = useMutation(LOGIN);
@@ -32,20 +33,20 @@ function Login(props) {
   return (
     <div className="container mt-10">
       <div className="row">
-        <div className="col-lg-3 col-md-2"></div>
-        <div
+        <div  className="col-lg-3 col-md-2"></div>
+        <div  
           className="col-lg-6 col-md-8 login-box"
           style={{
             background: "linear-gradient(30deg, #FFff, #ffe5d9)",
           }}
         >
-          <div className="col-lg-12 login-form">
+          <div   className="col-lg-12 login-form">
             <h1 className="text-center" style={{ color: "darkgrey" }}>
               Login
             </h1>
 
             <form onSubmit={handleFormSubmit}>
-              <div className="form-group">
+              <div  className="form-group">
                 <label className="form-control-label">USERNAME</label>
                 <input
                   type="text"
