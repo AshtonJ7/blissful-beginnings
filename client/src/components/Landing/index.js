@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import Description from "./Description/index";
 import Images from "./Carousel/Images";
@@ -10,5 +11,16 @@ function index() {
     </div>
   );
 }
+=======
+// import React from "react";
 
-export default index;
+// function index() {
+//   return (
+//     <div>
+//       <h1>testing</h1>
+//     </div>
+//   );
+// }
+>>>>>>> main
+
+// export default index;

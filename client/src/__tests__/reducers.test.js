@@ -26,7 +26,7 @@ const initialState = {
     }
   ],
   cartOpen: false,
-  categories: [{ name: 'Food' }],
+  categories: [{ name: 'Clothes' }],
   currentCategory: '1',
 };
 

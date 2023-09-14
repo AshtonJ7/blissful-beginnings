@@ -9,16 +9,12 @@ import { useStoreContext } from '../../utils/GlobalState';
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
 import './style.css';
 
-// TODO: Add a comment describing the functionality of loadStripe
-// Your comment here
 const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 
 const Cart = () => {
   const [state, dispatch] = useStoreContext();
   const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
 
-  // TODO: Add a comment describing the functionality of the useEffect hook in this instance
-  // Your comment here
   useEffect(() => {
     if (data) {
       stripePromise.then((res) => {
@@ -27,8 +23,6 @@ const Cart = () => {
     }
   }, [data]);
 
-  // TODO: Add a comment describing what data we are watching and what work should be preformed if that data changes
-  // Your comment here
   useEffect(() => {
     async function getCart() {
       const cart = await idbPromise('cart', 'get');
@@ -52,8 +46,6 @@ const Cart = () => {
     return sum.toFixed(2);
   }
 
-  // TODO: Add a comment describing the functionality of our submitCheckout function.
-  // Your comment here
   function submitCheckout() {
     const productIds = [];
 
@@ -71,9 +63,9 @@ const Cart = () => {
   if (!state.cartOpen) {
     return (
       <div className="cart-closed" onClick={toggleCart}>
-        <span role="img" aria-label="trash">
-          🛒
-        </span>
+        <div className="ml-2">
+          <i id="trolley" className="fa fa-shopping-cart fa-1x"></i>
+        </div>
       </div>
     );
   }
@@ -81,9 +73,13 @@ const Cart = () => {
   return (
     <div className="cart">
       <div className="close" onClick={toggleCart}>
-        [close]
+        X
       </div>
-      <h2>Shopping Cart</h2>
+      <h2>Shopping Cart <span></span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket-fill" viewBox="0 0 16 16">
+  <path d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z"/>
+</svg>
+      </h2>
       {state.cart.length ? (
         <div>
           {state.cart.map((item) => (
