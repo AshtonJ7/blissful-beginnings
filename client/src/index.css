@@ -373,6 +373,21 @@ button[disabled] {
   }
 }
 
+.landingback{
+  background: linear-gradient(
+      180deg,
+      #fff 15.77%,
+      #f2d1b24d 50.84%,
+      #eedfdb 90.62%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(255, 229, 217, 0.2) 0%,
+      rgba(255, 229, 217, 0.2) 100%
+    ),
+    rgba(255, 218, 185, 0.25);
+}
+
 /* .categoryoption {
 width:100%;
 justify-content: space-between;

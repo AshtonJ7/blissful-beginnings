@@ -15,7 +15,7 @@ import Images from "./Carousel/Images";
 
 function index() {
   return (
-    <div style={{ display: "flex" }}>
+    <div classname = "landingback" style={{ display: "flex", margin: "none", backgroundColor: "#f2d1b24d"}}>
       <Description />
       <Images />
     </div>

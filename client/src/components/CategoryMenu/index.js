@@ -46,7 +46,7 @@ function CategoryMenu() {
       {/* <h2>Choose a Category:</h2> */}
       {categories.map((item) => (
         <button
-        style={{borderRadius: "50px", justifyContent:"space-between", marginLeft: "20px"}}
+        style={{borderRadius: "50px", justifyContent:"space-between", marginLeft: "20px", marginTop: "10px"}}
           key={item._id}
           onClick={() => {
             handleClick(item._id);
