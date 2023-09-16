@@ -11,6 +11,10 @@ h1 {
     font-family: "Inter", sans-serif;
   }
   
+.carousel.carousel-slider {
+  margin-top: 2%;
+  height: 280px;
+}
   /* STYLING FOR THE H1 TITLE 'BABY CLOTHING */
   .baby-title {
     margin-top: 20%;
@@ -476,7 +480,6 @@ h1 {
       font-weight: 400;
       line-height: 24px;
       margin-left: 25px;
-      margin-top: 120px;
       font-family: "Inter", sans-serif;
     }
   }

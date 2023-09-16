@@ -345,7 +345,7 @@ button[disabled] {
 }
 
 .card {
-  width: 32%;
+  width: 30%;
   text-align: center;
   /* display: flex; */
   display:inline-block;
