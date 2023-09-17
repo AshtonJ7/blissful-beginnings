@@ -377,7 +377,7 @@ button[disabled] {
 
 .GiftIdea {
   padding-left: 40%;
-  padding-top: 10%;
+  padding-top: 5%;
   display: flex;
   postition: relative;
   flex-direction:column;
@@ -385,7 +385,7 @@ button[disabled] {
   width: 500px;
 }
 
-@media (min-width: 280px) and (max-width: 540px) {
+@media (min-width: 280px) and (max-width: 6046  px) {
   .GiftIdea {
     width: 200px;
     height: 400px;
