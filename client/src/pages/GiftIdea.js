@@ -8,7 +8,7 @@ import {
   MessageInput,
   TypingIndicator,
 } from '@chatscope/chat-ui-kit-react';
-
+import '../index.css'
 
 const API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
 
@@ -124,7 +124,7 @@ function GiftIdea() {
 
   return (
     <div className="GiftIdea">
-      <div style={{ position: "relative", height: "300px", width: "700px" }}>
+      <div style={{ position: "relative", height: "500px", width: "400px" }}>
         <MainContainer>
           <ChatContainer>
             <MessageList
