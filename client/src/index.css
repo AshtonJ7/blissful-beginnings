@@ -381,7 +381,7 @@ button[disabled] {
   width: 500px;
 }
 
-@media (min-width: 280px) and (max-width: 6046px) {
+@media (min-width: 280px) and (max-width: 1000px) {
   .GiftIdea {
     width: 200px;
     height: 400px;
