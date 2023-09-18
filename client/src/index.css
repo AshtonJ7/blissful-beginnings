@@ -14,11 +14,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: Helvetica, sans-serif;
-}
-
-.navButton{
-
+  font-family: "montserrat", sans-serif;
 }
 
 .navHeader{
@@ -86,10 +82,6 @@ body {
   background: -webkit-linear-gradient(#27ef9f, #0db8de);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.historyContainer {
-
 }
 
 .historyUserTitle{
@@ -414,17 +406,6 @@ button[disabled] {
     ),
     rgba(255, 218, 185, 0.25);
 }
-
-/* .categoryoption {
-width:100%;
-justify-content: space-between;
-}
-
-@media screen and (max-width: 768px) {
-  .categoryoption {
-    flex-direction: column;
-  }
-} */
 
 
 
