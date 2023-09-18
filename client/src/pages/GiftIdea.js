@@ -105,7 +105,7 @@ function GiftIdea() {
       setMessages([
         ...messages,
         {
-          message: "I can suggest some great gift ideas for adults with kids. Please feel free to have a look at our hand-made <a href='https://blissfullbeginnings-9040c36213a5.herokuapp.com/' target='_blank'>Furniture</a>. A gift any parent will appreciate.",
+          message: "I can suggest some great gift ideas for adults with kids. Please feel free to have a look at our hand-made <a href='https://blissfullbeginnings-9040c36213a5.herokuapp.com/products/650656683270d5b230c7e8bb' target='_blank'>Furniture</a>. A gift any parent will appreciate.",
           sender: "ChatGPT",
         },
       ]);
@@ -113,7 +113,7 @@ function GiftIdea() {
       setMessages([
         ...messages,
         {
-          message: "I can suggest some wonderful gifts for children. Please feel free to browse through our <a href='https://blissfullbeginnings-9040c36213a5.herokuapp.com/' target='_blank'>Toys</a> section. This bear <a href='https://blissfullbeginnings-9040c36213a5.herokuapp.com/' target='_blank'>Plushie</a> is very popular among our customers!",
+          message: "I can suggest some wonderful gifts for children. Please feel free to browse through our <a href='https://blissfullbeginnings-9040c36213a5.herokuapp.com/products/650656683270d5b230c7e8c5' target='_blank'>Toys</a> section. This bear <a href='https://blissfullbeginnings-9040c36213a5.herokuapp.com/products/650656683270d5b230c7e8c0' target='_blank'>Plushie</a> is very popular among our customers!",
           sender: "ChatGPT",
         },
       ]);
