@@ -3,6 +3,8 @@
 
 Blissful-beginnings is an ecommerce shop built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, designed to cater to the needs of both new and experienced parents. Our goal is to provide a seamless and enjoyable shopping experience for all your baby essentials, from adorable clothing to safe and innovative baby gear.
 
+## Link
+
 https://blissfullbeginnings-9040c36213a5.herokuapp.com/
 
 ## User Story
@@ -39,22 +41,24 @@ I am able to view my order history, separated by individual orders
 
 ```
 ## Tech Stack
+- HTML, CSS & Javascript
+- Node.Js
+- Express
+- Graphql
+- Mongoose
+- MongoDB
+- Stripe API
+- Open AI API
+- Web Manifest
+- dotenv
+- jsonwebtoken
 - chatscope/chat-ui-kit-react
 - react-simple-chatbot
 - bcrypt
 - bootstrap
 - bootstrap-icons
-- db
-- dotenv
-- jsonwebtoken
-- mongo
-- mongoose
 - react-responsive-carousel
 - apollo-server-express
-- express
-- graphql
-- mongoose
-- stripe
 
 ## Installation & Deployment
 
