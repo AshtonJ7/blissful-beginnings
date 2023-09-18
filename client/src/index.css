@@ -331,6 +331,7 @@ button {
   font-family: "montserrat", sans-serif;
 }
 
+
 button:hover {
   opacity: .8;
 }
@@ -427,4 +428,6 @@ justify-content: space-between;
 } */
 
 
-
+.nav-link btn btn-link {
+  color: green;
+}

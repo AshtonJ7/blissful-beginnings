@@ -3,6 +3,9 @@
 body {
   font-family: "Inter", sans-serif;
 }
+button {
+  background-color: none;
+}
 
 .custom-navbar {
   background-color: #ffffff;
