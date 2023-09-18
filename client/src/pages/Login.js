@@ -47,7 +47,7 @@ function Login(props) {
 
             <form onSubmit={handleFormSubmit}>
               <div  className="form-group">
-                <label className="form-control-label">USERNAME</label>
+                <label className="form-control-label">EMAIL ADDRESS</label>
                 <input
                   type="text"
                   className="form-control"
