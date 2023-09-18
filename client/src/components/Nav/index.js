@@ -117,7 +117,7 @@ function Index({ isLoggedIn, onLogoutClick}) {
               </li>
               <li className="nav-item">
               {isLoggedIn ? (
-            <button style={{ border: 'none' }} onClick={onLogoutClick} className="nav-item">
+            <button style={{ border: 'none', background: 'none', color: '#00000080'  }} onClick={onLogoutClick} className="nav-item">
               Log Out
             </button>
           ) : (
