@@ -67,8 +67,9 @@ git clone - git link
 
 Sign up to openAI to recieve API Key
 
-Create .env file for:
+Create .env file inclient for for:
 REACT_APP_OPENAI_API_KEY=INSERTKEYHERE
+REACT_APP_STRIPE_TEST_SECRET_KEY=pk_test_TYooMQauvdEDq54NiTphI7jx
 
 ```bash
 npm install
