@@ -1,5 +1,5 @@
 
-# blissful-beginnings
+# Blissful-beginnings
 
 Blissful-beginnings is an ecommerce shop built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, designed to cater to the needs of both new and experienced parents. Our goal is to provide a seamless and enjoyable shopping experience for all your baby essentials, from adorable clothing to safe and innovative baby gear.
 
