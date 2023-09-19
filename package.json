@@ -1,14 +1,18 @@
 {
-  "name": "mern-shopping",
+  "name": "blissful-beginnings",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
+  "engines": {
+    "node": "19.2.0"
+  },
   "scripts": {
     "start": "node server/server.js",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",
@@ -21,10 +25,13 @@
     "bcrypt": "^5.1.1",
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.5",
+    "db": "^4.0.1",
     "dotenv": "^16.3.1",
     "emoji": "^0.3.2",
     "env": "^0.0.2",
     "jsonwebtoken": "^9.0.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^7.5.1",
     "react-responsive-carousel": "^3.2.23",
     "react-simple-chatbot": "^0.6.1"
   }

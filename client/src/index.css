@@ -14,11 +14,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: Helvetica, sans-serif;
-}
-
-.navButton{
-
+  font-family: "montserrat", sans-serif;
 }
 
 .navHeader{
@@ -86,10 +82,6 @@ body {
   background: -webkit-linear-gradient(#27ef9f, #0db8de);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.historyContainer {
-
 }
 
 .historyUserTitle{
@@ -194,8 +186,10 @@ width: 100%;
 }
 
 .row {
+  justify-content: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 
@@ -286,6 +280,10 @@ label {
   right: 0px;
 }
 
+.btn {
+  color: #6c6c6c 
+}
+
 .login-btm {
   float: left;
 }
@@ -323,11 +321,12 @@ button {
   border-width: 1px;
   cursor: pointer;
   /* margin: 0 1px; */
-  background-color: var(--pink);
-  border-color: rgb(219, 178, 178);
+  /* background-color: var(--pink); */
+  /* border-color: rgb(219, 178, 178); */
   border-radius: 50px;
   font-family: "montserrat", sans-serif;
 }
+
 
 button:hover {
   opacity: .8;
@@ -343,7 +342,7 @@ button[disabled] {
 }
 
 .card {
-  width: 32%;
+  width: 30%;
   text-align: center;
   /* display: flex; */
   display:inline-block;
@@ -374,17 +373,22 @@ button[disabled] {
 }
 
 .GiftIdea {
-  padding-left: 30%;
-  padding-top: 10%;
-  width: 100px;
+  margin-left: 40%;
+  margin-top:5%;
   display: flex;
   flex-direction:column;
-  align-items: flex-start;
+  width: 500px;
 }
-/* .productcontainer {
-  display: flex;
 
-} */
+@media (min-width: 280px) and (max-width: 1000px) {
+  .GiftIdea {
+    margin: 0;
+    width: 200px;
+    height: 400px;
+    padding:3px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .card {
@@ -392,16 +396,17 @@ button[disabled] {
   }
 }
 
-/* .categoryoption {
-width:100%;
-justify-content: space-between;
+.landingback{
+  background: linear-gradient(
+      180deg,
+      #fff 15.77%,
+      #f2d1b24d 50.84%,
+      #eedfdb 90.62%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(255, 229, 217, 0.2) 0%,
+      rgba(255, 229, 217, 0.2) 100%
+    ),
+    rgba(255, 218, 185, 0.25);
 }
-
-@media screen and (max-width: 768px) {
-  .categoryoption {
-    flex-direction: column;
-  }
-} */
-
-
-

@@ -1,0 +1,55 @@
+.box {
+    margin-top: 100px;
+    width: 200px;
+  }
+  /* --------MEDIA QUERIES - FOR IMAGE COMPONENT ----------- */
+  /* Apply responsive styles for screens between 992px and 1199px wide */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .box {
+      width: 80%;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+  }
+  /* XL SCREEN: Responsive styles for screens between 768px and 992px wide */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .box {
+      width: 80%;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+  }
+  /* LG SCREEN: Responsive styles for screens between 600px and 768px wide */
+  @media (min-width: 600px) and (max-width: 768px) {
+    .box {
+      width: 80%;
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+  }
+  /* 3XL SCREEN: Responsive styles for screens at least 1302px wide */
+  @media (min-width: 1199px) and (max-width: 1300px) {
+    .box {
+      width: 80%;
+      max-width: 280px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+  }
+  /* 4XL SCREEN: Responsive styles for screens at least 1302px wide */
+  @media (min-width: 1300px) {
+    .box {
+      width: 100%;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+  }

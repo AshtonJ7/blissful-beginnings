@@ -131,4 +131,8 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+<<<<<<< HEAD
 .DS_store
+=======
+.env
+>>>>>>> a15f2d6ee1dd85762aa43e95994cafc3b9c96df2
