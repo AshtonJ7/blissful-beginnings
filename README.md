@@ -65,13 +65,20 @@ I am able to view my order history, separated by individual orders
 
 git clone - git link
 
+Sign up to openAI to recieve API Key
+
+Create .env file for:
+REACT_APP_OPENAI_API_KEY=INSERTKEYHERE
+
 ```bash
 npm install
 npm run build
 npm run seed
 npm run develop
 ```
-    
+Stripe Documentation Reference:
+https://stripe.com/docs/stripe-js/react
+
 ## Authors
 
 - [@dirie93](https://github.com/dirie93)
