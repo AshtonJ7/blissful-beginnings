@@ -38,11 +38,11 @@ Then it appears in my basket and I am only able to checkout if logged in
 When I am logged in
 I am able to view my order history, separated by individual orders
 
-
 ```
 ## Tech Stack
 - HTML, CSS & Javascript
 - Node.Js
+- React JS
 - Express
 - Graphql
 - Mongoose
@@ -59,6 +59,7 @@ I am able to view my order history, separated by individual orders
 - bootstrap-icons
 - react-responsive-carousel
 - apollo-server-express
+- Easy gif (Animated PNG)
 
 ## Installation & Deployment
 
