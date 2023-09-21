@@ -65,11 +65,14 @@ I am able to view my order history, separated by individual orders
 
 git clone - git link
 
-Sign up to openAI to recieve API Key
+Sign up to openAI to recieve your own API Key
 
-Create .env file inclient for for:
-REACT_APP_OPENAI_API_KEY=INSERTKEYHERE
+Create .env file in client & include the following keys:
+
+```
+REACT_APP_OPENAI_API_KEY=INSERT-OPENAI-KEYHERE
 REACT_APP_STRIPE_TEST_SECRET_KEY=pk_test_TYooMQauvdEDq54NiTphI7jx
+```
 
 ```bash
 npm install
