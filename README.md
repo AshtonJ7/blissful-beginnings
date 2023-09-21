@@ -9,10 +9,10 @@ https://blissfullbeginnings-9040c36213a5.herokuapp.com/
 
 ## User Story
 ```
-As a new parent/carer
-I would like to buy baby/young child products
-From a site that is easy to use, inclusive and supports my shopping needs.
-I want to be able to access this site from all of my devices
+As a New parent/carer
+I would Like to buy Baby/young child Products
+From A site that is Easy to use, Inclusive and Supports my shopping Needs.
+I want To be Able to Access this Site from All of my Devices
 ```
 ## Features
 
@@ -79,6 +79,10 @@ npm run develop
 ```
 Stripe Documentation Reference:
 https://stripe.com/docs/stripe-js/react
+
+## Stripe Payment Demo
+
+https://drive.google.com/file/d/13tZKavJjh2WtWCiHw-4YqzFcUGp0zvI6/view?usp=drive_link
 
 ## Authors
 
